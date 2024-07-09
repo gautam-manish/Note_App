@@ -14,7 +14,6 @@ body {
 .container {
     width: 100%;
     min-height: 100vh;
-    background: linear-gradient(135deg, #cf9aff, #95c0ff);
     color: #fff;
     padding: 4% 0 0 10%;
 }
@@ -68,4 +67,78 @@ body {
     bottom: 7.5px;
     right: 2.5%;
     cursor: pointer;
+}
+
+@media (max-width: 1200px) {
+    .container {
+        padding: 4% 5% 0 5%;
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        padding: 4% 3% 0 3%;
+    }
+
+    .container h1 {
+        font-size: 30px;
+    }
+
+    .container h1 img {
+        width: 50px;
+    }
+
+    .container button {
+        font-size: 14px;
+        padding: 12px 20px;
+    }
+
+    .container button img {
+        width: 20px;
+    }
+
+    .inputBox {
+        max-width: 100%;
+        min-height: 130px;
+        padding: 15px;
+    }
+
+    .inputBox img {
+        width: 20px;
+        bottom: 5px;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        padding: 4% 2% 0 2%;
+    }
+
+    .container h1 {
+        font-size: 25px;
+    }
+
+    .container h1 img {
+        width: 40px;
+    }
+
+    .container button {
+        font-size: 12px;
+        padding: 10px 15px;
+    }
+
+    .container button img {
+        width: 15px;
+    }
+
+    .inputBox {
+        max-width: 100%;
+        min-height: 100px;
+        padding: 10px;
+    }
+
+    .inputBox img {
+        width: 15px;
+        bottom: 3px;
+    }
 }
